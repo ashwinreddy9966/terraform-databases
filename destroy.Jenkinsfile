@@ -1,4 +1,4 @@
-pipeline {  
+pipeline {
 agent any
   stages {
            stage('Terraform Initialisization') {
@@ -16,7 +16,7 @@ agent any
 
             stage('Terraform Apply') {
             steps {
-                sh "terraform apply -auto-approve -var-file=env-${ENV}/${ENV}.tfvars" 
+                sh "terraform destroy -auto-approve -var-file=env-${ENV}/${ENV}.tfvars"
                 }
             }
          }
