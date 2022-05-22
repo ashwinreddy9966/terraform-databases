@@ -4,4 +4,5 @@
 
 module "mongodb" {
   source           = "./vendor/modules/mongodb" # we made this as the source as Terrafile places the remote source module and place here
+  ENV              = var.ENV
 }
