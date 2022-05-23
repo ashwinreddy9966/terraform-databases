@@ -1,7 +1,7 @@
 module "mongodb" {
   source           = "./vendor/modules/mongodb" # we made this as the source as Terrafile places the remote source module and place here
   ENV              = var.ENV
- // WORKSTATION_IP   = var.WORKSTATION_IP
+  WORKSTATION_IP   = var.WORKSTATION_IP
 }
 
 module "redis" {
