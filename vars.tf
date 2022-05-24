@@ -18,3 +18,8 @@ variable "ELASTICACHE_ENGINE_VERSION" {}
 variable "ELASTICACHE_NODE_TYPE" {}
 variable "ELASTICACHE_NODE_COUNT" {}
 
+
+#RabbitMQ
+variable "RABBITMQ_PORT" {}
+variable "RABBITMQ_ENGINE_VERSION" {}
+variable "RABBITMQ_INSTANCE_TYPE" {}

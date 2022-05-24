@@ -28,8 +28,13 @@ module "mysql" {
 }
 
 module "rabbitmq" {
-  source           = "./vendor/modules/rabbitmq" # we made this as the source as Terrafile places the remote source module and place here
-  ENV              = var.ENV
-  WORKSTATION_IP   = var.WORKSTATION_IP
+  source                      = "./vendor/modules/rabbitmq" # we made this as the source as Terrafile places the remote source module and place here
+  ENV                         = var.ENV
+  WORKSTATION_IP              = var.WORKSTATION_IP
+  RABBITMQ_PORT               = var.RABBITMQ_PORT
+  RABBITMQ_ENGINE_VERSION     = var.RABBITMQ_ENGINE_VERSION
+  RABBITMQ_INSTANCE_TYPE      = var.RABBITMQ_INSTANCE_TYPE
 }
+
+
 
