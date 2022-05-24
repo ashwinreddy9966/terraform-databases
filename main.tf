@@ -22,6 +22,3 @@ module "rabbitmq" {
  // WORKSTATION_IP   = var.WORKSTATION_IP
 }
 
-output "rabbitmq" {
-  value = module.rabbitmq.rabbitmq
-}
