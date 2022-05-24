@@ -10,3 +10,4 @@ variable "RDS_INSTANCE_TYPE" {}
 #Mongo
 variable "DCOUMENTDB_PORT" {}
 variable "DCOUMENTDB_INSTANCE_CLASS" {}
+variable "DCOUMENTDB_INSTANCE_COUNT" {}
