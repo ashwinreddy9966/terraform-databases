@@ -21,7 +21,3 @@ module "rabbitmq" {
   ENV              = var.ENV
  // WORKSTATION_IP   = var.WORKSTATION_IP
 }
-
-output "redis" {
-  value = module.redis.redis
-}
