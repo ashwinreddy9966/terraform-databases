@@ -23,5 +23,5 @@ module "rabbitmq" {
 }
 
 output "redis" {
-  value = moduleaws_elasticache_cluster.redis
+  value = module.redis.redis
 }
