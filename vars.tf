@@ -8,6 +8,6 @@ variable "RDS_ENGINE_VERSION" {}
 variable "RDS_INSTANCE_TYPE" {}
 
 #Mongo
-variable "DOOUMENTDB_PORT" {}
-variable "DOOUMENTDB_INSTANCE_CLASS" {}
-variable "DOOUMENTDB_INSTANCE_COUNT" {}
+variable "DOCUMENTDB_PORT" {}
+variable "DOCUMENTDB_INSTANCE_CLASS" {}
+variable "DOCUMENTDB_INSTANCE_COUNT" {}
