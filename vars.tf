@@ -2,7 +2,6 @@ variable "ENV" {}
 variable "WORKSTATION_IP" {}
 
 #RDS
-#RDS
 variable "RDS_MYSQL_PORT" {}
 variable "RDS_MYSQL_STORAGE" {}
 variable "RDS_ENGINE_VERSION" {}
