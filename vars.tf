@@ -13,5 +13,5 @@ variable "DOCUMENTDB_INSTANCE_CLASS" {}
 variable "DOCUMENTDB_INSTANCE_COUNT" {}
 
 #Redis
-variable "REDIS_PORT" {}
+variable "ELASTICACHE_PORT" {}
 variable "REDIS_INSTANCE_CLASS" {}
