@@ -2,6 +2,9 @@ module "mongodb" {
   source           = "./vendor/modules/mongodb" # we made this as the source as Terrafile places the remote source module and place here
   ENV              = var.ENV
   WORKSTATION_IP   = var.WORKSTATION_IP
+  DOCUMENTDB_PORT           = var.DOCUMENTDB_PORT
+  DOCUMENTDB_INSTANCE_CLASS = var.DOCUMENTDB_INSTANCE_CLASS
+  DOCUMENTDB_INSTANCE_CLASS = var.DOCUMENTDB_INSTANCE_CLASS
 }
 
 module "redis" {
