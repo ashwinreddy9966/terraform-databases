@@ -14,4 +14,7 @@ variable "DOCUMENTDB_INSTANCE_COUNT" {}
 
 #Redis
 variable "ELASTICACHE_PORT" {}
-variable "REDIS_INSTANCE_CLASS" {}
+variable "ELASTICACHE_ENGINE_VERSION" {}
+variable "ELASTICACHE_NODE_TYPE" {}
+variable "ELASTICACHE_NODE_COUNT" {}
+

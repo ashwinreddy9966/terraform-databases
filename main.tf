@@ -8,9 +8,13 @@ module "mongodb" {
 }
 
 module "redis" {
-  source           = "./vendor/modules/redis" # we made this as the source as Terrafile places the remote source module and place here
-  ENV              = var.ENV
- // WORKSTATION_IP   = var.WORKSTATION_IP
+  source                     = "./vendor/modules/redis" # we made this as the source as Terrafile places the remote source module and place here
+  ENV                        = var.ENV
+  WORKSTATION_IP             = var.WORKSTATION_IP
+  ELASTICACHE_PORT           = var.ELASTICACHE_PORT
+  ELASTICACHE_ENGINE_VERSION = var.ELASTICACHE_ENGINE_VERSION
+  ELASTICACHE_NODE_TYPE      = var.ELASTICACHE_NODE_TYPE
+  ELASTICACHE_NODE_COUNT     = var.ELASTICACHE_NODE_COUNT
 }
 
 module "mysql" {
