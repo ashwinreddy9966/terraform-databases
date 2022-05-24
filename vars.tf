@@ -11,3 +11,7 @@ variable "RDS_INSTANCE_TYPE" {}
 variable "DOCUMENTDB_PORT" {}
 variable "DOCUMENTDB_INSTANCE_CLASS" {}
 variable "DOCUMENTDB_INSTANCE_COUNT" {}
+
+#Redis
+variable "REDIS_PORT" {}
+variable "REDIS_INSTANCE_CLASS" {}
