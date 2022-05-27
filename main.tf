@@ -32,7 +32,7 @@ module "rabbitmq" {
   ENV                         = var.ENV
   WORKSTATION_IP              = var.WORKSTATION_IP
   RABBITMQ_PORT               = var.RABBITMQ_PORT
-  RABBITMQ_ENGINE_VERSION     = var.RABBITMQ_ENGINE_VERSION
+//  RABBITMQ_ENGINE_VERSION     = var.RABBITMQ_ENGINE_VERSION
   RABBITMQ_INSTANCE_TYPE      = var.RABBITMQ_INSTANCE_TYPE
   APP_VERSION                 = var.APP_VERSION
 }
