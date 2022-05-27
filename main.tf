@@ -35,4 +35,5 @@ module "rabbitmq" {
 //  RABBITMQ_ENGINE_VERSION     = var.RABBITMQ_ENGINE_VERSION
   RABBITMQ_INSTANCE_TYPE      = var.RABBITMQ_INSTANCE_TYPE
   APP_VERSION                 = var.APP_VERSION
+  COMPONENT                   = var.COMPONENT
 }

@@ -24,3 +24,4 @@ variable "RABBITMQ_PORT" {}
 variable "RABBITMQ_ENGINE_VERSION" {}
 variable "RABBITMQ_INSTANCE_TYPE" {}
 variable "APP_VERSION" {}
+variable "COMPONENT" {}
