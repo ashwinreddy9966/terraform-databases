@@ -37,3 +37,8 @@ module "rabbitmq" {
   APP_VERSION                 = var.APP_VERSION
   COMPONENT                   = var.COMPONENT
 }
+
+
+outputs "MONGODB_EBDPOINT" {
+  values = module.mongodb.
+}
