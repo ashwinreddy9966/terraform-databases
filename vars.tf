@@ -11,7 +11,7 @@ variable "RDS_INSTANCE_TYPE" {}
 variable "DOCUMENTDB_PORT" {}
 variable "DOCUMENTDB_INSTANCE_CLASS" {}
 variable "DOCUMENTDB_INSTANCE_COUNT" {}
-variable "MONGODB_ENDPOINT" {}
+
 
 #Redis
 variable "ELASTICACHE_PORT" {}
