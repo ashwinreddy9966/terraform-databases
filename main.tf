@@ -41,5 +41,5 @@ module "rabbitmq" {
 
 
 outputs "MONGODB_ENDPOINT" {
-  values = module.mongodb.outputs.MONGODB_ENDPOINT
+  values = module.mongodb.MONGODB_ENDPOINT
 }
