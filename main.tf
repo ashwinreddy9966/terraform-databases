@@ -5,6 +5,7 @@ module "mongodb" {
   DOCUMENTDB_PORT           = var.DOCUMENTDB_PORT
   DOCUMENTDB_INSTANCE_CLASS = var.DOCUMENTDB_INSTANCE_CLASS
   DOCUMENTDB_INSTANCE_COUNT = var.DOCUMENTDB_INSTANCE_COUNT
+  MONGODB_ENDPOINT          = var.MONGODB_ENDPOINT
 }
 
 module "redis" {
@@ -40,5 +41,5 @@ module "rabbitmq" {
 
 
 outputs "MONGODB_ENDPOINT" {
-  values = module.mongodb.outputs.MONGODB_EBDPOINT
+  values = module.mongodb.outputs.MONGODB_ENDPOINT
 }
