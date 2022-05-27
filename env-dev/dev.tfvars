@@ -24,3 +24,4 @@ RABBITMQ_PORT           = 5672
 RABBITMQ_ENGINE_VERSION = "3.9.16"
 RABBITMQ_INSTANCE_TYPE  = "t3.micro"
 APP_VERSION             = "1.0.0"
+COMPONENT               = "rabbitmq"
