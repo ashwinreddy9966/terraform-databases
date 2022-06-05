@@ -5,3 +5,11 @@ mongodb:
 redis:
   source:  "https://github.com/ashwinreddy9966/tf-module-redis.git"
   version: "main"
+
+mysql:
+  source:  "https://github.com/ashwinreddy9966/tf-modules-mysql.git"
+  version: "main"
+
+rabbitmq:
+  source:  "https://github.com/ashwinreddy9966/tf-modules-rabbitmq.git"
+  version: "main"
