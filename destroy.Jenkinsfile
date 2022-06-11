@@ -8,7 +8,7 @@ agent any
            stage('Terraform Initialisation') {
             steps {
                 sh "cp env-dev/Terrafile . ; terrafile"
-                sh "terraform init -backend-config=env-${ENV}/${ENV}-backend.tfvars"
+                sh "terraform init -backend-config=env-${ENV}/${ENV}-backend.tfvars -reconfigure"
                 }
             }
             stage('Terraform Apply') {
